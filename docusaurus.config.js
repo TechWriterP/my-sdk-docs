@@ -159,9 +159,9 @@ export default config;
 
 module.exports = {
   title: 'StockPulse SDK Docs',
-  url: 'https://<your-GitHub-username>.github.io', // Your GitHub Pages URL
+  url: 'https://TechWriterP.github.io', // Your GitHub Pages URL
   baseUrl: '/my-sdk-docs/', // The name of your GitHub repository
-  organizationName: '<your-GitHub-username>', // Your GitHub ID
+  organizationName: 'TechWriterP', // Your GitHub ID
   projectName: 'my-sdk-docs', // Your repository name
   deploymentBranch: 'gh-pages', // The branch Docusaurus will deploy to
   trailingSlash: false,
