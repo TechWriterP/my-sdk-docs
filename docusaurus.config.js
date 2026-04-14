@@ -10,7 +10,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'StockPulse SDK Docs',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -20,15 +20,18 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://TechWriterP.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/my-sdk-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'TechWriterP', // Usually your GitHub org/user name.
+  projectName: 'my-sdk-docs', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
+
 
   onBrokenLinks: 'throw',
 
@@ -156,14 +159,3 @@ const config = {
 };
 
 export default config;
-
-module.exports = {
-  title: 'StockPulse SDK Docs',
-  url: 'https://TechWriterP.github.io', // Your GitHub Pages URL
-  baseUrl: '/my-sdk-docs/', // The name of your GitHub repository
-  organizationName: 'TechWriterP', // Your GitHub ID
-  projectName: 'my-sdk-docs', // Your repository name
-  deploymentBranch: 'gh-pages', // The branch Docusaurus will deploy to
-  trailingSlash: false,
-  // ... rest of the config
-};

@@ -34,4 +34,4 @@ console.log(quote.price);
 | Exception | Description |
 |---|---|
 | InvalidSymbolException | The provided ticker symbol was not found. |
-| RateLimitException | The API request limit for your key has been exceeded. |
+| RateLimitException | The API request limit for your key has been exceeded.

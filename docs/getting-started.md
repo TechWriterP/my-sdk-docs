@@ -1,3 +1,8 @@
+---
+sidebar_position: 1
+sidebar_label: 'Getting Started'
+---
+
 # Getting started with StockPulse SDK
 
 Learn how to integrate real-time stock market data into your application using the StockPulse SDK. This guide helps you set up your environment and make your first data request.
