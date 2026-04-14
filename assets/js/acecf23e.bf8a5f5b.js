@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_sdk_docs=self.webpackChunkmy_sdk_docs||[]).push([["3220"],{1912(s){s.exports=JSON.parse('{"blogBasePath":"/my-sdk-docs/blog","blogTitle":"Blog","authorsListPath":"/my-sdk-docs/blog/authors"}')}}]);
